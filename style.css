@@ -1,0 +1,36 @@
+
+.top-banner{
+    padding: 100px 0 60px;
+}
+.navbar, .top-banner {
+    background-color: #f0fff0;
+}
+.nav-item a{
+
+}
+.btn-primary{
+    background-color: #21b573;
+}
+.one-item{
+    border: 3px solid black;
+    padding:
+    
+}
+.four-item-line1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    padding-top: 20px;
+
+}
+.four-item-line2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;        
+    line-height: 24px;
+    color: #585859;
+
+}
+
