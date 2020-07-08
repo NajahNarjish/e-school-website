@@ -9,45 +9,69 @@ body{
     color: #000000;
     padding-left: 10px;
 } 
+.navbar, .top-banner {
+    background: #f0fff0;
+}
 
-/* .navbar-toggler-icon{
-    background-color:black;
-} */
+/* top-banner */
 .top-banner{
     padding: 100px 0 60px;
 }
-.navbar, .top-banner {
-    background-color: #f0fff0;
+#top-banner-red-p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A
 }
-
+.top-banner h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+}
+.top-banner span{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #21B573;
+}
+#top-banner-black-p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
 .btn-primary{
     font-family: Roboto;
     font-size: 16px;
     color: #FFFFFF;
     background-color: #21b573;
-    border-radius: 40px;
+    border-radius: 33px;
     padding: 10px 20px;
+    border:none;
 }
-.btn {
-    border: none;
+.top-banner-btn {
+    padding: 0;
 }
 
-
-
+/* four-items */
 .one-item{
     border: none;
     padding: 45px 0px 45px 0px;
-    margin: 36px 0px;
+    margin: 55px 0px 36px;
     border-radius: 10px;
     background: #F8FFFB;   
 }
-
+.one-item img{
+    padding-bottom: 15px;
+}
+#book-img{
+    padding-bottom: 0px; 
+}
 .one-item:hover{
     box-shadow: 5px 10px 18px #ededed;
     background: white ; 
-
 }
-
 .four-item-line1{
     font-style: normal;
     font-weight: 500;
@@ -55,7 +79,6 @@ body{
     line-height: 36px;
     color: #413960;
     padding-top: 20px;
-
 }
 .four-item-line2{
     font-style: normal;
@@ -63,9 +86,10 @@ body{
     font-size: 16px;        
     line-height: 24px;
     color: #585859;
-
 }
-.heading-courses{
+
+/* Online-courses */
+.heading-courses, .heading-testimonial{
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -101,18 +125,48 @@ body{
     border-top: none;
     padding: 10px 0 0;
 }
-
 .icon-left, .icon-right{
     height: 24px;
     width: 25px;
 }
 
-.blank{
-    height: 100px;
+/* testimonial part */
+.testimonial{
+    padding:33px 0 75px;
 }
-/* confusion */
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: .5rem;
-    padding-left: 1.5rem;
+.heading-testimonial{
+    color: #000000;
+}
+.testimonial .text{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
 }
 
+/* link-part */
+.link-part{
+    background-color: #282531;
+    padding: 50px 0;
+}
+.link-part p, .link-part ul li a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+}
+.link-part ul li:first-child a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* footer */
+footer{
+    background-color:#282531;
+    padding: 25px 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
