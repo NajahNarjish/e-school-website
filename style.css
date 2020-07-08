@@ -1,21 +1,53 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+.navbar-nav li a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 10px;
+} 
 
+/* .navbar-toggler-icon{
+    background-color:black;
+} */
 .top-banner{
     padding: 100px 0 60px;
 }
 .navbar, .top-banner {
     background-color: #f0fff0;
 }
-.nav-item a{
+
+.btn-primary{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #21b573;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+.btn {
+    border: none;
+}
+
+
+
+.one-item{
+    border: none;
+    padding: 45px 0px 45px 0px;
+    margin: 36px 0px;
+    border-radius: 10px;
+    background: #F8FFFB;   
+}
+
+.one-item:hover{
+    box-shadow: 5px 10px 18px #ededed;
+    background: white ; 
 
 }
-.btn-primary{
-    background-color: #21b573;
-}
-.one-item{
-    border: 3px solid black;
-    padding:
-    
-}
+
 .four-item-line1{
     font-style: normal;
     font-weight: 500;
@@ -32,5 +64,55 @@
     line-height: 24px;
     color: #585859;
 
+}
+.heading-courses{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    padding: 50px 0 50px;
+}
+.card{
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    box-shadow: 5px 10px 35px #f1f1f1;
+}
+.card-body{
+    padding:24px 0;
+}
+.card-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;  
+}
+.card-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.card-footer {
+    background-color:white;
+    border-top: none;
+    padding: 10px 0 0;
+}
+
+.icon-left, .icon-right{
+    height: 24px;
+    width: 25px;
+}
+
+.blank{
+    height: 100px;
+}
+/* confusion */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 1.5rem;
 }
 

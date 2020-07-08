@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-school</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- navbar starts -->
-
+    
         <nav class="navbar navbar-expand-lg">
             <div class="container">
             <a class="navbar-brand w-25" href="#">
                 <img class="img-fluid w-75" src="images/Logo.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-              <ul class="navbar-nav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav align-items-center">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
                 </li>
@@ -37,12 +38,12 @@
                     <a class="nav-link" href="#">
                         <input class="btn btn-primary" type="submit" value="Sign In">
                     </a>
-                    
                 </li> 
               </ul> 
             </div>
-        </div>
-          </nav>        
+        </div> 
+          </nav> 
+             
     <!-- navbar ends -->
 
     <!-- banner starts -->
@@ -57,7 +58,7 @@
                     </h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
                     <a class="nav-link" href="#">
-                        <input class="btn btn-primary" type="submit" value="Sign In">
+                        <button class="btn btn-primary">Get started</button>
                     </a>
                 </div>
                 <!-- 2nd half -->
@@ -73,6 +74,7 @@
     <section class="four-items">
         <div class="container">
             <div class="row">
+                <!-- 1st-item  -->
                 <div class="col-md-3">
                     <div class="one-item text-center">
                         <img class="four-item-pic img-fluid w-25" src="images/book.png" alt="">
@@ -80,26 +82,121 @@
                         <p class="four-item-line2">Learn Anythings</p>
                     </div>
                 </div>
-
-
-                <div class="col-md-3 mx-auto">
-                    <img class="four-item-pic img-fluid w-25 " src="images/book.png" alt="">
-                    <p class="four-item-line1">1500+ Topic</p>
-                    <p class="four-item-line2">Learn Anythings</p>
-                </div>
+                <!-- 2nd item -->
                 <div class="col-md-3">
-                    <img class="four-item-pic img-fluid w-25" src="images/book.png" alt="">
-                    <p class="four-item-line1">1500+ Topic</p>
-                    <p class="four-item-line2">Learn Anythings</p>
+                    <div class="one-item text-center">
+                        <img class="four-item-pic img-fluid w-25" src="images/Student.png" alt="">
+                        <p class="four-item-line1">11800+ Students</p>
+                        <p class="four-item-line2">Learn Anythings</p>
+                    </div>
                 </div>
+                <!-- 3rd item -->
                 <div class="col-md-3">
-                    <img class="four-item-pic img-fluid w-25" src="images/book.png" alt="">
-                    <p class="four-item-line1">1500+ Topic</p>
-                    <p class="four-item-line2">Learn Anythings</p>
+                    <div class="one-item text-center">
+                        <img class="four-item-pic img-fluid w-25" src="images/Test.png" alt="">
+                        <p class="four-item-line1">9K+ Test Token</p>
+                        <p class="four-item-line2">Learn Anythings</p>
+                    </div>
                 </div>
-                
+                <!-- 4th item -->
+                <div class="col-md-3">
+                    <div class="one-item text-center">
+                        <img class="four-item-pic img-fluid w-25" src="images/Students.png" alt="">
+                        <p class="four-item-line1">2000+ Student</p>
+                        <p class="four-item-line2">Learn Anythings</p>
+                    </div>
+                </div>   
             </div>
         </div>
+    </section>
+    <!-- four-items part ends -->
+
+    <!-- Online-courses part starts -->
+    <section class="online-courses">
+        <div class="container online-courses" id="online-courses">
+            <p class="text-center heading-courses">Online Courses</p>
+            <div class="card-deck">
+                <!-- 1st card -->
+                <div class="card">
+                    <img class="card-img-top" src="images/Morder pyschology.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern Psychology</h5>
+                        <p class="card-text">Designation</p>
+                        <a href="#">
+                            <button class="btn btn-primary">Buy Course</button>
+                        </a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted d-flex justify-content-between">
+                            <div class="small-left">
+                                <img class= "icon-left" src="images/calendar.png" alt="">
+                                <span>Start 20 April, 2021</span>
+                            </div>
+                            <div class="small-right">
+                                <img class= "icon-right" src="images/people.png" alt="">
+                                <span>60 seats</span>
+                            </div>
+                        </small>
+                    </div>
+                </div>
+
+                <!-- 2nd card -->
+                <div class="card">
+                    <img class="card-img-top" src="images/Morder psyc.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern Psychology</h5>
+                        <p class="card-text">Designation</p>
+                        <a href="#">
+                            <button class="btn btn-primary">Buy Course</button>
+                        </a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted d-flex justify-content-between">
+                            <div class="small-left">
+                                <img class= "icon-left" src="images/calendar.png" alt="">
+                                <span>Start 20 April, 2021</span>
+                            </div>
+                            <div class="small-right">
+                                <img class= "icon-right" src="images/people.png" alt="">
+                                <span>60 seats</span>
+                            </div>
+                        </small>
+                    </div>
+                </div>
+                <!-- 3rd card -->
+                <div class="card">
+                    <img class="card-img-top" src="images/Morder pychons.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern Psychology</h5>
+                        <p class="card-text">Designation</p>
+                        <a href="#">
+                            <button class="btn btn-primary">Buy Course</button>
+                        </a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted d-flex justify-content-between">
+                            <div class="small-left">
+                                <img class= "icon-left" src="images/calendar.png" alt="">
+                                <span>Start 20 April, 2021</span>
+                            </div>
+                            <div class="small-right">
+                                <img class= "icon-right" src="images/people.png" alt="">
+                                <span>60 seats</span>
+                            </div>
+                        </small>
+                    </div>
+                </div>
+        </div>       
+    </section>
+    <!-- Online-courses  part ends -->
+
+    <!-- Testimonial part starts -->
+    <section>
+        
+    </section>
+    
+
+    <section class="blank" >
 
     </section>
 
